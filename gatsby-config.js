@@ -8,7 +8,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
+    siteTitle: `Alamin's Blog`,
     siteTitleAlt: `Alamin's Blog`,
+    siteHeadline: `Alamin's Blog`,
+    siteUrl: `https://alamin.digital/`,
+    siteDescription: `This is Alamin's blog`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@alamizn`,
   },
   plugins: [
     {
@@ -132,7 +139,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Alamin's Blog`,
           },
         ],
       },
